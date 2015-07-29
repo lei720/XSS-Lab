@@ -1,0 +1,69 @@
+body{
+	background-color:#003F5E;
+	font-family:lucida console;
+}
+textarea{
+	font-family:lucida console;
+	width:600px;
+	height:150px;
+	border:2px dashed black;
+	border-radius:5px;
+	padding:10px;
+	margin:10px;
+}
+input[type='submit'],input[type='button']{
+	width:150px;
+	height:35px;
+	margin:5px;	
+	font-family:lucida console;
+}
+table{
+	font-family:lucida console;
+	margin-left:190px;
+}
+th{
+	color:Green;
+}
+#td_id{
+	color:white;
+	width:30px;	
+}
+#td_input{
+	color:Red;
+	width:600px;	
+}
+h1{
+	text-align:center;
+	color:DarkOrange;	
+}
+h2{
+	text-align:center;
+	color:#BAFF03;
+}
+h3{
+	text-align:center;
+	color:red;
+}
+h4{
+	text-align:center;
+	color:white;
+	font-weight:bold;
+}
+#ok{
+	color:#CDFF32;
+	font-weight:bold;
+}
+#comment{
+	color:#FFC000;
+	font-weight:bold;
+}
+#finished{
+	font-weight:bold;
+	color:#FFF0DE;
+}
+a{
+	text-decoration:none;
+	color:red;
+	font-weight:bold;
+	font-size:20px;
+}

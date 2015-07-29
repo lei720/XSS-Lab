@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Cross Site Scripting Lab</title>
+</head>
+<body>
+<style>
+body{
+	background-color:#012F49;
+	font-family:Lucida Sans Unicode;
+}
+
+#green{
+	background-color:#0A8705;
+	min-height:30px;	
+	border-top:2px dashed black;
+	border-right:2px dashed black;
+	border-left:2px dashed black;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+}
+#white{
+	background-color:white;
+	min-height:30px;
+	border-left:2px dashed black;
+	border-right:2px dashed black;
+	text-align:center;
+	padding-top:4px;
+}
+#red{
+	background-color:red;
+	min-height:30px;
+	border-bottom:2px dashed black;
+	border-right:2px dashed black;
+	border-left:2px dashed black;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+}
+#text{
+	background-color:white;
+	min-height:300px;
+	margin-top:7px;
+	border:2px dashed black;
+	border-radius:5px;
+	padding:25px;
+	text-align:center;
+}
+table{
+	margin-left:270px;;	
+}
+#td1{
+	width:20px;	
+}
+#td2{
+	width:280px;	
+}
+#td3{
+	width:150px;	
+}
+a{
+	color:DarkGreen;	
+	text-decoration:none;
+}
+a:activated{
+	color:#450001;	
+}
+a:hover{
+	color:#450001;	
+}
+</style>
+<div id="all">
+	<div id="green">
+    
+    </div>
+    <div id="white">
+    In The Name Of Allah
+    </div>
+    <div id="red">
+    
+    </div>
+    <div id="text">
+    	~~ Stored Cross Site Scripting [GET] ~~<br><br>
+        <table align="center">
+        <tr>
+        	<td id="td1">1- </td>
+			<td id="td2"><a href="1/index.php">Step One</a></td>
+        </tr>
+        <tr>
+           	<td id="td1">2- </td>
+			<td id="td2"><a href="2/index.php">Step Two</a></td>
+        </tr>
+		<tr>
+        	<td id="td1">3- </td>
+			<td id="td2"><a href="3/index.php">Step Three</a></td>
+        </tr>
+        <tr>
+           	<td id="td1">4- </td>
+			<td id="td2"><a href="4/index.php">Step Four</a></td>
+        </tr>
+		<tr>
+           	<td id="td1">5- </td>
+			<td id="td2"><a href="5/index.php">Step Five</a></td>
+        </tr>
+		<tr>
+           	<td id="td1">6- </td>
+			<td id="td2"><a href="6/index.php">Step Six</a></td>
+        </tr>
+		<tr>
+           	<td id="td1">7- </td>
+			<td id="td2"><a href="7/index.php">Step Seven</a></td>
+        </tr>
+        </table>
+        <br><br>
+		<a href="../Stored-Post/index.html">[+] Go To Stored [POST Method]</a><br>
+        <a href="../Reflected/index.html">[+] Go To Reflected</a><br>
+        <a href="../index.php">[-] Back To Home</a><br> 
+	</div>
+</div>
+</body>
+</html>
